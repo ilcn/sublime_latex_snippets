@@ -1,9 +1,11 @@
 <snippet>
 	<content><![CDATA[
-\documentclass[12pt]{article}
+\documentclass[letterpaper]{article}
 \newenvironment{question}[2][Question]{\begin{trivlist}
 \item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
 \usepackage{amssymb,mathrsfs,amsmath,enumerate}
+\usepackage[left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
+\usepackage[T1]{fontenc}
 \begin{document}
 
 \title{$1}
